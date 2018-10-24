@@ -30,7 +30,7 @@ public class RandomNumbers {
 
     // pick a single random integer, 1-100
     a = 1 + (int)( 100*Math.random() );
-    System.out.println( "1-100:\t" + a );
+    System.out.println( "1-100:\t" + a + "\t" + a + "\t" + a + "\t" + a );
 
     // pick 4 random integers, each 1-100
     a = 1 + (int)( 100*Math.random() );
@@ -61,5 +61,17 @@ public class RandomNumbers {
     System.out.println( "0-9.99:\t" + r );
     System.out.println( "0-9:\t" + (int)r );
     System.out.println( "1-10:\t" + (1 + (int)r) );
+
+    // pick 3 random integers, each 1-3
+    a = 1 + (int)( 3*Math.random() );
+    b = 1 + (int)( 3*Math.random() );
+    c = 1 + (int)( 3*Math.random() );
+    System.out.println( "1-3:\t" + a + "\t" + b + "\t" + c );
+
+    // pick 3 random integers, each 5-10
+    a = 5 + (int)(6*Math.random() );
+    b = 5 + (int)(6*Math.random() );    
+    c = 5 + (int)(6*Math.random() );    
+    System.out.println( "5-10:\t" + a + "\t" + b + "\t" + c );
   }
 }
