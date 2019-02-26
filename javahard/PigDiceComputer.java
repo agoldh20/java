@@ -13,12 +13,13 @@ public class PigDiceComputer {
       else {
         total += roll;
         System.out.print("\tComputer has " + total);
-        System.out.print(" points this round\n");
+        System.out.print(" points so far this round.\n");
         if (total < 20) {
-          System.out.println("\tThe Computer will roll again");
+          System.out.println("\tComputer will roll again.");
         }
       }
     } while (roll != 1 && total < 20);
-    System.out.println("Computer ends the round with " + total + " points.");
+
+    System.out.println("Computer ends the round with " + total + " points");
   }
 }
